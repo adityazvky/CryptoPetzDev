@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>CryptoPetz 2021-Dec-07-V1</title>
+    <title>CryptoPetz 2021-Dec-16-V1</title>
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=960 height=540 style="width: 960px; height: 540px; background: #231F20"></canvas>
-    <script src="Build/CryptoBuild.loader.js"></script>
+    <script src="Build/CryptoBuildDev.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/CryptoBuild.data",
-        frameworkUrl: "Build/CryptoBuild.framework.js",
-        codeUrl: "Build/CryptoBuild.wasm",
+        dataUrl: "Build/CryptoBuildDev.data",
+        frameworkUrl: "Build/CryptoBuildDev.framework.js",
+        codeUrl: "Build/CryptoBuildDev.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "CryptoPetz",
